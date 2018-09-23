@@ -1,0 +1,81 @@
+body {
+  padding-top: 2%;
+  background-color: #cccccc;
+}
+
+.navbar {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7),to(#eee));
+  background-image: -webkit-linear-gradient(top, #f7f7f7 0%,#eee 100%);
+  background-image: -o-linear-gradient(top, #f7f7f7 0%,#eee 100%);
+  background-image: linear-gradient(to bottom, #f7f7f7 0%,#eee 100%);
+  border: 1px solid #e5e5e5;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .navbar-nav .nav-item {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+  }
+}
+
+.card {
+ margin-top: 2px;
+}
+
+.svgmap { 
+  /**background-image: url("../../assets/images/map.png");**/
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+circle { 
+  fill: rgb(43, 42, 42);
+  stroke: rgb(0, 0, 0);
+  stroke-width: 1;
+  cursor: pointer;
+}
+
+.label 
+{ 
+  font-family: arial;
+  stroke: #ffffff;
+  cursor: pointer;
+}
+
+line { 
+  stroke: #1E1E1E;
+  stroke-dasharray: 5,5;
+  stroke-width: 2;
+}
+
+line.shortest { 
+  stroke: rgb(155, 0, 245);
+  stroke-dasharray: 5,0;
+  stroke-width: 11;
+  -webkit-box-shadow: 4px 5px 5px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 4px 5px 5px -1px rgba(0,0,0,0.75);
+  box-shadow: 4px 5px 5px -1px rgba(0,0,0,0.75);
+}
+
+.line-label { 
+  font-family: arial;
+  stroke: #000000;
+}
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .masthead,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "app.js",
+  "version": "1.0.0",
+  "description": "MQTT, Node.js ",
+  "main": "main.js",
+  "scripts": {
+    "lite": "lite-server --port 10001",
+    "start": "npm run lite"
+  },
+  "author": "C.V.W.T.",
+  "license": "MIT",
+  "dependencies": {
+    "light-server": "^2.2.1",
+    "mqtt": "^2.14.0"
+  }
+}
