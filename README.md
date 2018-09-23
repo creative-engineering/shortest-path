@@ -7,4 +7,4 @@ Feel free to use the code for whatever purposes you may have in mind.
 Read more - [creative-engineering.org/article_lib/greatest_piece_of_art/greatest_piece_of_art.html](http://creative-engineering.org/article_lib/greatest_piece_of_art/greatest_piece_of_art.html).
 
 
-![alt text](img/SP21.JPG)
+![alt text](img/img.JPG)
